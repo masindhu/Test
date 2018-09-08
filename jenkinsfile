@@ -1,0 +1,11 @@
+pipeline {
+  agent any
+    stages {
+	  stage('Build')
+	     stepts {
+		   sh 'echo "Hello World"'
+		    }
+		}
+		
+	}	
+	   
